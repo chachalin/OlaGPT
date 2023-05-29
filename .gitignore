@@ -1,0 +1,16 @@
+.ipynb_checkpoints/
+dataset/
+methods/
+.idea/
+__pycache__/
+agent_template/Reflect/**.ipynb**
+agent_template/Reflect/**.joblib**
+agent_template/Reflect/**.txt**
+demo_agents/tool_faiss_index/
+test.py
+tools/tool_faiss_index/
+.DS_Store
+run-temp.sh
+run-test-*
+notes/faiss_index_dir
+analysis/
