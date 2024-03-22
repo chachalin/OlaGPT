@@ -18,12 +18,12 @@ faiss-cpu
 ## Usage
 
 Several important parameters:
-- **is_eval**: whether it is evaluation mode
-- **question**: valid when is_eval is False, suitable for testing a single question
-- **eval_full**: whether to evaluate all data
-- **eval_num**: valid when eval_full is False, can specify how many data to evaluate
-- **is_random**: valid when eval_full is False, controls whether to randomly select eval_num data
-- **n_split**: parallelism during evaluation, the higher the value, the higher the parallelism, but be aware of API concurrency limits
+- **is_eval**: whether it is evaluation mode.
+- **question**: valid when is_eval is False, suitable for testing a single question.
+- **eval_full**: whether to evaluate all data.
+- **eval_num**: valid when eval_full is False, can specify how many data to evaluate.
+- **is_random**: valid when eval_full is False, controls whether to randomly select eval_num data.
+- **n_split**: parallelism during evaluation, the higher the value, the higher the parallelism, but be aware of API concurrency limits.
 - **model_name**: controls the output path in prediction.
 
 
